@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-wcag-accessibility-themes",
+  "version": "1.0.0",
+  "description": "Zero-code WCAG 2.2 AAA compliant design tokens for accessibility pipelines.",
+  "tokens": {
+    "colors": {
+      "accessible-black": "#0D0D0D",
+      "accessible-white": "#FFFFFF",
+      "high-contrast-blue": "#004B87",
+      "high-contrast-yellow": "#FFEB3B"
+    },
+    "typography": {
+      "fontFamily": {
+        "dyslexic": ["OpenDyslexic", "sans-serif"],
+        "senior-readable": ["Arial", "Helvetica", "sans-serif"]
+      },
+      "fontSize": {
+        "kg-default": "1.25rem",
+        "senior-default": "1.5rem",
+        "senior-xl": "2.25rem"
+      }
+    },
+    "spacing": {
+      "accessible-touch-target": "48px",
+      "senior-motor-tremor-padding": "64px"
+    }
+  }
+}
